@@ -3,18 +3,20 @@ using System.Collections;
 
 public class PlayerControllerScript : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    public float rotation;
+    public float maxRotation = 90.0f;
+    public float minRotation = -90.0f;
+    public float rotationIncrement;
+
+    // Use this for initialization
+    void Start () {
 	
 	}
 	
 	// Update is called once per frame
 	void Update ()
     {
-        if(Input.GetMouseButtonDown(0))
-        {
-            //Rigidbody2D rb = GetComponent<Rigidbody2D>();
-            //rb.velocity = new Vector2(rb.velocity.x * 1.1f, rb.velocity.y * 1.1f);
-        }
+        float rot = Input.GetAxis("Horizontal");
+        transform.Rotate(0, 0, -rot * rotationIncrement * Time.deltaTime);
 	}
 }

@@ -1,19 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SpwanScript : MonoBehaviour {
+public class SpawnScript : MonoBehaviour {
 
 	public GameObject[] obj;
 	public float spawnMin = 1f;
 	public float spawnMax = 2f;
-	PlayerControllerScript playerScript;
 	public GameObject mainCamera;
 
 
 	//ACRESCENTAR PARTE DO HUB PARA ADICIONAR PONTOS
 
 	void Start () {
-		playerScript = GameObject.Find ("Character").GetComponent<PlayerControllerScript> ();
 		Invoke("Spawn", Random.Range(0f, 4f));
 	}
 
