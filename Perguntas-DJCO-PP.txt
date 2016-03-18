@@ -1,0 +1,122 @@
+-1-
+
+Scheme
+Qual é a função do predicado "append"?
+a) Criar uma nova variável que pode ser baseada em variáveis definidas no "lambda".
+b) Devolver o primeiro elemento de uma lista.
+c) Juntar duas listas numa só.
+d) Devolver uma aproximação unitária de um número decimal.
+(Resposta correta: c))
+
+Assembly
+Considerando que queremos fazer com que $s1 seja o resultado da união entre dois elementos, 
+complete a seguinte linha de código: "___ $s1, $s2, 100"
+a) add
+b) addi
+c) and
+d) andi
+(Resposta correta: d))
+
+UVF (Unidade de Vírgula Flutuante)
+Qual das seguintes funções serve para trocar o sinal de um valor?
+a) fchs
+b) fxch
+c) fldz
+d) fmul
+(Resposta correta: a))
+
+C++ (1)
+Qual das seguintes operações é semelhante a "*p = x;"?
+a) p = *x;
+b) p = &x;
+c) &p = x;
+d) Nenhuma das anteriores.
+(Resposta correta: b))
+
+-2-
+
+C++ (2)
+Qual das seguintes linhas de código é relevante a uma tabela de dispersão?
+a) typedef priority_queue<int> HEAP_NUMBERS;
+b) typedef stack<Object> STACK_OBJS;
+c) tr1::unordered_set<string> letters;
+d) BST<Class> getValue() const;
+(Resposta correta: c))
+
+Java
+Queremos que uma variável seja acessível a partir da sua classe, da sua "package" e de sub-classes da sua classe,
+mas não no geral. Que modificador colocamos nessa variável?
+a) protected
+b) private
+c) public
+d) default (não se coloca nenhum modificador)
+(Resposta correta: a))
+
+SQL
+Considere a tabela "Policias" e o seu atributo date "data_inicio".
+Qual o comando ideal para pedir o número de polícias que começaram a 11 de Novembro de 2008?
+a) SELECT * FROM Policias WHERE data_inicio ON '2008/11/11';
+b) SELECT * FROM COUNT(Policias) WHERE data_inicio='2008-11-11';
+c) SELECT COUNT(*) FROM Policias WHERE data_inicio ON '2008/11/11';
+d) SELECT COUNT(*) FROM Policias WHERE data_inicio='2008-11-11';
+(Resposta correta: d))
+
+OpenGL
+Qual é o objetivo do comando glTexCoord2f?
+a) Definir os vértices da figura a construir.
+b) Definir a posição de uma determinada figura.
+c) Definir as coordenadas da textura a colocar na figura.
+d) Definir o tamanho de uma determinada figura.
+(Resposta correta: c))
+
+SOPE (C)
+Qual das seguintes funções é responsável pela criação de novos processos?
+a) pthread_create()
+b) fork()
+c) raise()
+d) pthread_mutex_create()
+(Resposta correta: b))
+
+-3-
+
+LTW
+Entre PHP e JavaScript, qual destas características é exclusiva ao JavaScript?
+a) É utilizado para acções na mesma página web.
+b) É utilizado para acções que involvam o carregamento de uma nova página web.
+c) Um ficheiro HTML pode diretamente incluir código nesta linguagem.
+d) Nenhuma das anteriores.
+(Resposta correta: a))
+
+Prolog
+Qual das seguintes linhas de código descreve o primeiro elemento de uma lista L?
+a) [L|L1]
+b) [L1|L]
+c) L1 is L[0]
+d) L1, !, L
+(Resposta correta: b))
+
+ANF
+Na linha "<action symbol="ee" />", que significado possui o símbolo "ee"?
+a) Um valor numérico em vírgula flutuante.
+b) Um valor booleano (true/false).
+c) Uma string.
+d) Nenhuma das anteriores.
+(Resposta correta: d))
+
+-4-
+
+Alloy
+Considerando sig Pessoa { descendentes: Pessoa }, qual das seguintes linhas de código descreve todos os ascendentes?
+a) all p: Pessoa | p.^descendentes
+b) all p: Pessoa | p.*descendentes
+c) all p: Pessoa | descendentes.^p
+d) all p: Pessoa | descendentes.*p
+(Resposta correta: d))
+
+VDM++
+Qual é o resultado de "[1,2,3,4] ++ {2 |-> 5, 4 |-> 3}"?
+a) [1,[2,5],3,[4,3]]
+b) [1,2,3,4]
+c) [1,5,3]
+d) [1,5,3,3]
+(Resposta correta: c))
