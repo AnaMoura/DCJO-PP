@@ -6,11 +6,14 @@ public class GameController : MonoBehaviour {
 
     public static GameController controller;
 
+    // Upgradable stats
     public float rampBoost = 0.1f;
     public float rampClickBonus = 0.1f;
+    public float maxBoostTime = 3f;
 
     void Awake()
     {
+        // Simulate a singleton class keeping the same GameObject from scene to scene
         if (controller == null)
         {
             DontDestroyOnLoad(gameObject);
@@ -21,16 +24,6 @@ public class GameController : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-
-    // Use this for initialization
-    void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
     public void UpgradeRampBoost()
     {

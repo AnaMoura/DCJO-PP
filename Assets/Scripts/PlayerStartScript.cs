@@ -11,6 +11,7 @@ public class PlayerStartScript : MonoBehaviour {
     void Start ()
     {
         rb = GetComponent<Rigidbody2D>();
+        GetComponent<PlayerControllerScript>().enabled = false; // Disable the player controls
     }
 
     // Update is called once per frame
